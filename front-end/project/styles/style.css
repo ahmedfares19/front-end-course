@@ -1,0 +1,53 @@
+html,body{
+    direction: rtl;
+    font-size: 22;
+    background-color: #e4e3e3;
+    /* color: red; */
+}
+
+
+.window{
+    margin:150px auto ;
+    /* margin-right: 500px; */
+    color: rgb(202, 202, 202);
+    width: 600px;
+    border:1px solid rgb(134, 134, 134);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 10px 20px rgba(170, 165, 165, 0.781);
+    background-color: #3b6978;
+}
+
+
+#window__title{
+    font-size: 32px;
+    text-align: center;
+}
+
+.window__identfier{
+    font-size: 22px;
+}
+.window__data{
+    font-size: 28px;
+}
+
+#window__submit{
+    /* background-color: azure; */
+    border: 1px solid #fff;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #3b6978;
+    user-select: none;
+
+}
+
+#window__submit:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+#window__submit:active {
+    background-color: black;
+}
+
