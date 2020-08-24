@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.flexbox {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+}
+.flexbox__item {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(255, 0, 55);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+  user-select: none;
+  z-index: 1499 ;
+  transform: rotate(0deg) scale(1);
+}
+
+.flexbox__item:hover {
+   
+    background-color: #fff;
+    border: 1px solid rgb(255, 0, 55);
+    color: rgb(255, 0, 55);
+    box-shadow: 3px 10px 30px rgba(51, 51, 51, 0.342);
+}
+
+.box {
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    position: relative;
+    z-index: 1500;
+    top: 50px;
+}
