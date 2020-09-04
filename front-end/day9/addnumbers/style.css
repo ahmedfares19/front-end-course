@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander&display=swap");
+body,
+html {
+  margin: 0;
+  font-family: "Grandstander", cursive;
+  background-color: #043036;
+  color: #e0ece4;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.calc {
+  width: 300px;
+  padding: 0 15px;
+  background-color: #056674;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 14px 28px rgba(126, 126, 126, 0.25),
+    0 10px 10px rgba(109, 109, 109, 0.22);
+}
+
+.calc__title {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.calc__number {
+  margin: 10px 0 5px 0 !important;
+  font-size: 12px;
+}
+
+.calc__input {
+  font-family: "Grandstander", cursive;
+  padding: 2px;
+  background-color: #66bfbf;
+  border: 1px solid #8bd3d3;
+  color: rgba(93, 93, 93, 0.892);
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.calc__btn {
+  background-color: #ff4b5c;
+  text-align: center;
+  padding: 5px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 25px;
+  border: 1px solid #ff4b5c;
+}
+
+.calc__btn:hover {
+  border: 1px solid #ff4b5c;
+  background-color: transparent;
+  cursor: pointer;
+  user-select: none;
+  color: #e0ece4;
+}
+.calc__btn:active {
+  background-color: #ff4b5d4b;
+}
+.calc__output {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.info {
+    margin: 50px;
+
+}
+.info a{
+    color: #e0ece4;
+}
