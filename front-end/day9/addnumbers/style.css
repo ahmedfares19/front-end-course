@@ -73,3 +73,10 @@ html {
 .info a{
     color: #e0ece4;
 }
+
+
+.toggle {
+  background-color: rgb(195, 255, 0);
+  border: 5px solid #0ad0eb;
+  border-radius: 50px;
+}
