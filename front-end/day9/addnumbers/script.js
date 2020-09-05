@@ -3,13 +3,16 @@ function addNumbers(numberOne,numberTwo){
 }
 
 
- const numberOneInput = document.getElementById('num1').value
- const numberTwoInput = document.getElementById('num2').value
+
  const addBtn = document.getElementById('add-btn')
 
  
 addBtn.onclick = () => {
-
+    const numberOneInput = document.getElementById('num1').value
+    const numberTwoInput = document.getElementById('num2').value
+    const sum = addNumbers(+numberOneInput, +numberTwoInput)
+    
+    document.getElementById('output').innerHTML = ` ${numberOneInput} + ${numberTwoInput} = ${sum}`
 }
 
 console.log(numberOneInput);
