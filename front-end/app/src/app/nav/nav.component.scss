@@ -1,0 +1,21 @@
+.nav {
+  padding: 10px;
+  display: flex;
+  background-color: #637373;
+  color: #ff9a76;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 45px;
+  #img {
+    height: 80px;
+  }
+  .item{
+    //   background-color: #fff;
+      margin: 0 45px;
+  }
+  .item:hover{
+    color: #3f1100;
+    cursor: pointer;
+    user-select: none;
+  }
+}

@@ -1,0 +1,26 @@
+.hero{
+    background-image: url(./../../assets/hero-img.jpg);
+    
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    .text{
+        background-color: rgba(58, 58, 58, 0.589);
+        padding: 55px;
+        width: 45%;
+        margin: 0 auto;
+        border-radius: 25px;
+        color: #fff;
+        text-align: center;
+        .btn{
+            background-color: #fff;
+            border: 1px solid #fff;
+        }
+        .btn:hover{
+            color: #fff;
+            background-color: transparent;
+        }
+    }
+}
